@@ -7,7 +7,7 @@ import React, {
 
 import classNames from "classnames";
 
-import useGroupByColumnCount from "./hooks/useGroupByColumnCount";
+import useGroupByColumnCount from "../hooks/useGroupByColumnCount";
 
 import Checkbox from "./Checkbox";
 

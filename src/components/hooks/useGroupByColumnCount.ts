@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 
-import {Option} from "../CheckboxGroup";
+import {Option} from "../Checkbox/CheckboxGroup";
 
 const useGroupByColumnCount = (options: Option[],selectAllOption:Option|null, columns: number) => {
   const newOptions: Array<any> = [];
