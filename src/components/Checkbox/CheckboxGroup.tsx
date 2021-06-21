@@ -11,7 +11,7 @@ import useGroupByColumnCount from "../hooks/useGroupByColumnCount";
 
 import Checkbox from "./Checkbox";
 
-import "./CheckboxGroup.scss";
+// import "./CheckboxGroup.scss";
 
 export interface Option {
   label: string;

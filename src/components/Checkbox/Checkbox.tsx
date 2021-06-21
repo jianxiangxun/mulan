@@ -53,4 +53,6 @@ const Checkbox: React.FC<ICheckboxProps> = (props: ICheckboxProps) => {
     </label>
   );
 };
-export default React.memo(Checkbox);
+// 加上memo，到处时出错！！！
+// export default React.memo(Checkbox);
+export default Checkbox;
